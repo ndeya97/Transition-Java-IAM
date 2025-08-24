@@ -1,0 +1,43 @@
+# ---- OS / éditeurs ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+*.iws
+
+# ---- Java / builds ----
+*.class
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# ---- Maven ----
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# ---- Gradle (si jamais) ----
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# ---- Autres archives de build ----
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ---- Divers temp ----
+out/
+bin/
+tmp/
+*.tmp
